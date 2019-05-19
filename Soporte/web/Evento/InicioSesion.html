@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Inicio de Sesión Reporte de Evento</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../CSS/InicioSesion.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class='bold-line'></div>
+        <div class='container'>
+            <div class='window'>
+                <div class='overlay'></div>
+                <div class='content'>
+                <form action="ValInicio.jsp" method="POST">    
+                    <div class='welcome'>AetherInc</div>
+                    <div class='subtitle'>Inicie Sesión Usuario de Reporte de Evento</div>
+                    <div class='input-fields'>
+                        <input type='text' name="Usuario" placeholder='Usuario' class='input-line full-width'>
+                        <input type='password' name="Contrasena" placeholder='Contrasena' class='input-line full-width'>
+                        <input type='password' name="Repita Contrasena" placeholder='Repita Contrasena' class='input-line full-width'>
+                    </div>
+                    <div class='spacing'><span class='highlight'></span></div>
+                    <div><input type="submit" value="Iniciar Sesión" class='ghost-round full-width'></div>
+                </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
